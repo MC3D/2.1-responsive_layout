@@ -11,15 +11,13 @@ img {
 }
 
 .box {
-    width: 25%;
     margin: 10px;
-    display: inline-block;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 576px) {
     .box {
-        display: block;
-        width: auto;
+        display: inline-block;
+        width: 25%;
     }
 }
 
